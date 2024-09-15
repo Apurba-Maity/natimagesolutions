@@ -1,0 +1,77 @@
+/* General Styling */
+body {
+    background-color: #E8EBE4;
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px #888;
+}
+
+/* Vibrant colors for website name */
+h1 .nat {
+    color: #FF5733; /* Vibrant orange for 'NAT' */
+}
+
+h1 .rest {
+    color: #3498DB; /* Vibrant blue for 'IMAGE SOLUTIONS' */
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.upload-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.upload-section input[type="file"],
+.upload-section input[type="number"],
+.upload-section button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button {
+    background-color: #FDE74C;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: #FDE74C;
+    border: 1px solid #FDE74C;
+}
+
+input:hover, label:hover {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #adc178;
+    color: white;
+}
+
+/* Feedback Form */
+.vertical-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 500px;
+    margin: 20px auto;
+}
